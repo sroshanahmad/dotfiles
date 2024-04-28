@@ -10,7 +10,7 @@ syntax on
 set number
 
 " set status bar "
-set laststatus=1
+set laststatus=2
 
 " highlight current line "
 set cursorline
