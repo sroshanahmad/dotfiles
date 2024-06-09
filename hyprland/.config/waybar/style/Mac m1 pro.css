@@ -20,7 +20,7 @@ window#waybar {
     /* Changed color to black. Refer to line 33 for original color. for open apps*/
     background: #000;
 	color: #cba6f7;
-	/* background-color: transparent; */
+    /* background-color: transparent; */
 }
 
 window#waybar.hidden {
@@ -54,10 +54,12 @@ tooltip {
 
 /*-----module groups----*/
 .modules-right {
-	border: 3px solid #11111b;
+	border: 3px solid #000;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #1e1e2e;
-	padding-top: 5px;
+	/* changed to black color  */
+    background-color: #000;
+    padding-top: 5px;
 	padding-bottom: 2px;
 	padding-right: 10px;
 	padding-left: 4px;
@@ -72,10 +74,11 @@ tooltip {
 
 .modules-left {
 	/*background-color: #1e1e2e;*/
-	border: 3px solid #11111b;
+	border: 3px solid #000;
 	border-radius: 10px 10px 10px 10px;
 	background-color: #1e1e2e;
-	padding-top: 5px;
+	background-color: #000;
+    padding-top: 5px;
 	padding-bottom: 2px;
 	padding-right: 4px;
 	padding-left: 10px;
