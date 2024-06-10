@@ -6,7 +6,7 @@
 
 {
  
-"include": "~/.config/waybar/my-modules",
+"include": "~/.config/waybar/custom-modules",
 "layer": "top",
 //"mode": "dock",
 "exclusive": true,
@@ -23,20 +23,23 @@
 "modules-left": [
 	"hyprland/workspaces#cam",
 	"custom/separator#line",
-	"mpris",
-	"custom/swaync",
-	"tray", 
-	"wlr/taskbar"],
+//	"mpris",
+    "tray",
+	"custom/swaync"],
+	//"tray" 
+	//"wlr/taskbar"
+    //],
 
 "modules-center": ["hyprland/window"], 
 	
 "modules-right": [
 	"battery",
-    "custom/backlight",
-	"backlight/slider",
 	"custom/speaker",
 	"pulseaudio/slider",
-	"clock#3"],
+    "custom/backlight",
+    "backlight/slider",
+	"clock#3",
+    "custom/power"],
 
 // Additional modules //
 "pulseaudio/slider": {
@@ -60,7 +63,7 @@
 },
 
 "custom/backlight": {
-	"exec": "echo '✨'",  
+	"exec": "echo '🔅'",  
 	"interval": 1,
 	"format": "{}"
 },

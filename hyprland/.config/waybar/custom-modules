@@ -176,7 +176,8 @@
 		"2": [],
 		"3": [],
 		"4": [],
-		"5": []
+		"5": [],
+        "6": []
 	},
 		"format-icons": {
 		"1": "1",
@@ -597,7 +598,7 @@
 },
 "wlr/taskbar": {
 	"format": "{icon} {name}",
-	"icon-size": 16,
+	"icon-size": 12,
 	"all-outputs": false,
 	"tooltip-format": "{title}",
 	"on-click": "activate",
@@ -605,7 +606,7 @@
 	"ignore-list": [
 		"wofi",
 		"rofi",
-		"kitty"
+        "kitty"
 		],
 },
 "custom/cycle_wall": {
